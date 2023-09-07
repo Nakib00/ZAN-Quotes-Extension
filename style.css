@@ -1,0 +1,24 @@
+/* Reset some default styles */
+body {
+    height: 100vh; /* Make the body take up the full viewport height */
+    width: 100vh;
+    margin: 0; /* Remove default margin */
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Vertically center the content */
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    text-align: center;
+}
+
+/* Style for the quote container */
+p {
+    display: inline-block; /* Make the container adjust to text size */
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid lightblue;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    font-size: 15px;
+    color: #ffffff;
+}
